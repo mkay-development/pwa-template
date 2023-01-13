@@ -225,9 +225,9 @@
     import-meta-resolve "^2.2.0"
 
 "@sveltejs/adapter-static@^1.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.1.tgz#8bfc36170fdbd2fb8537e1a57b762ec902d195fd"
-  integrity sha512-lusMk8ckXuAK5W04/3P3UqVi+nyOyNRbgSfhzc+Wwy0WLMKQ/qxUAzc7BCFOPz0FrIkGYZmyGHC05SfhrrQleg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.2.tgz#08bd4e1a2108da8cbaa8063fa1ae7248009bf23b"
+  integrity sha512-pUxDCzYN4qFF5xb4l5xblMkzRS616EiuQGCqVGXM6rS+a9R8DTGfTutIQcPhDEAndrP4RIMPJzo/OhQtioWp2A==
 
 "@sveltejs/kit@^1.0.0":
   version "1.0.11"
