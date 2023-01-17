@@ -3,7 +3,7 @@ module.exports = {
 	globPatterns: [
 		'**/*.{ts,html,svelte,css}'
 	],
-	swDest: 'src/static/sw.js',
+	swDest: 'static/sw.js',
 	ignoreURLParametersMatching: [
 		/^utm_/,
 		/^fbclid$/
