@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "workbox generateSW workbox-config.cjs && vite build",
 		"preview": "vite preview",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -33,6 +33,7 @@
 		"@fortawesome/free-brands-svg-icons": "^6.2",
 		"@fortawesome/free-solid-svg-icons": "^6.2",
 		"@sveltejs/adapter-static": "^1.0",
-		"svelte-fa": "^3.0"
+		"svelte-fa": "^3.0",
+		"workbox-cli": "^6.5.4"
 	}
 }
