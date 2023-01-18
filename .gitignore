@@ -9,7 +9,7 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-src/workbox-*.js
-src/workbox-*.js.map
-src/sw.js
-src/sw.js.map
+static/workbox-*.js
+static/workbox-*.js.map
+static/sw.js
+static/sw.js.map
