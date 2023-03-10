@@ -1,1 +1,1 @@
-<h2>Willkommen auf der Seite der Mail.app :D</h2>
+<h2 class="font-bold text-lg">Hallo Welt</h2>
