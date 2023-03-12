@@ -41,9 +41,6 @@
 
       {#if isLoggedIn}
         <li>
-          <a href="/databases"><Fa icon={faServer} size="1.5x" /></a>
-        </li>
-        <li>
           <a href="/user/profile"><Fa icon={faUser} size="1.5x" /></a>
         </li>
         <li>
