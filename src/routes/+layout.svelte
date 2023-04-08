@@ -4,7 +4,6 @@
   import {
     faHeart,
     faRightFromBracket,
-    faServer,
     faUser,
   } from "@fortawesome/free-solid-svg-icons";
   import { init, isLoggedIn } from "../stores/user";
@@ -33,16 +32,13 @@
   <h1 class="text-xl font-bold"><a href="/">Logo</a></h1>
   <nav class="">
     <ul class="flex space-x-5">
-      {#if !isLoggedIn}
+      {#if !$isLoggedIn}
         <li>
           <a href="/login"><Fa icon={faUser} size="1.5x" /></a>
         </li>
       {/if}
 
-      {#if isLoggedIn}
-        <li>
-          <a href="/databases"><Fa icon={faServer} size="1.5x" /></a>
-        </li>
+      {#if $isLoggedIn}
         <li>
           <a href="/user/profile"><Fa icon={faUser} size="1.5x" /></a>
         </li>
